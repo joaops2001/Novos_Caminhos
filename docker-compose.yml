@@ -12,6 +12,10 @@ services:
             - ./www:/usr/share/nginx/html
             - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
         ports:
+<<<<<<< HEAD
             - "80:80"
+=======
+            - "9999:80"
+>>>>>>> 8cc7f0346ea36cad5301fb3da737a14a7876535e
         depends_on:
             - "php"
